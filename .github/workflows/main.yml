@@ -11,7 +11,7 @@ jobs:
     env:
       DATABRICKS_HOST: ${{ secrets.DEV_DEPLOYMENT_TARGET_URL }}
       DATABRICKS_TOKEN: ${{ secrets.DEV_DEPLOYMENT_TARGET_TOKEN }}
-      REPO_PATH: /Repos/sarojpaudel79@gmail.com/CustomerAnalyticswithCICD
+      REPO_PATH: /Workspace/Users/sarojpaudel79@gmail.com/CustomerAnalyticswithCICD
 
     steps:
       - name: Checkout repository
